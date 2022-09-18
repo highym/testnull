@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ezen..null 관리자 페이지</title>
+
+    <link rel="stylesheet" href="ad_main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <!-- <script>
+        function ad_aside() {
+            let ad_aside = document.getElementById('ad_asidelist');
+            let btn = document.getElementById('navbar_btn');
+            btn.addEventListener('click',() => {
+                ad_aside.classList.toggle('open');
+            });
+        }
+    </script> -->
+</head>
+
+<body>
+
+    <div class="ad_head">
+        <h1>관리자 페이지</h1>
+        <!-- <button class="navbar_btn" id="navbar_btn" onclick="ad_aside()">asd -->
+    </div>
+
+    <div class="ad_wrap">
+        <div class="ad_aside">
+            <!-- <div class="ad_asidetb"> -->
+                <a href="">
+                    <li class="ad_asideli">회원정보관리</li>
+                </a>
+
+                <a href="">
+                    <li class="ad_asideli">호스트정보 관리</li>
+                </a>
+
+                <a href="">
+                    <li class="ad_asideli">1:1문의 관리</li>
+                </a>
+
+                <a href="">
+                    <li class="ad_asideli">공지사항 관리</li>
+                </a>
+
+                <a href="">
+                    <li class="ad_asideli">도움말 관리</li>
+                </a>
+                <!-- <div class="sg_home">
+                    <a href="">HOME</a>
+                </div> -->
+            <!-- </div> -->
+        </div>
+
+
+        <div class="ad_section">
+            <table class="ad_sectiontb">
+                <tr>
+                    <th colspan="2">
+                        <h1>1:1문의 관리</h1>
+                    </th>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <hr>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="ad_sectionth">문의 내용</th>
+                    <td>
+                        <textarea cols="70" rows="3"
+                            style="resize: none; border-radius: 5px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates labore in odio aliquam a rem, harum necessitatibus cupiditate. Voluptates tenetur excepturi vitae quasi aliquam accusamus nisi? Ipsa nam minus temporibus?</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="ad_sectionth">답변 내용</th>
+                    <td>
+                        <textarea cols="70" rows="15"
+                            style="resize: none; border-radius: 5px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eligendi odit nam autem! Nostrum neque ea dicta quaerat vitae non odit, ullam excepturi impedit, consequuntur laboriosam ratione amet molestias. Omnis!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eligendi odit nam autem! Nostrum neque ea dicta quaerat vitae non odit, ullam excepturi impedit, consequuntur laboriosam ratione amet molestias. Omnis!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eligendi odit nam autem! Nostrum neque ea dicta quaerat vitae non odit, ullam excepturi impedit, consequuntur laboriosam ratione amet molestias. Omnis!</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input class="ad_btn" type="button" value="문의하기" onclick="location.href='/one2one_writeAction'">
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</body>
+
+</html>
