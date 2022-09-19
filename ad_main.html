@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ezen..null 관리자 페이지</title>
 
-    <link rel="stylesheet" href="ad_main.css">
+    <link rel="stylesheet" href="css/ad_main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
 
     <!-- <script>
@@ -57,7 +57,7 @@
         </div>
 
         <div class="ad_section">
-            <table class="ad_sectiontb">
+            <table class="ad_sectiontb" style="width: 100%">
                 <tr>
                     <th colspan="2">
                         <h1>1:1문의 관리</h1>
@@ -70,21 +70,21 @@
                 </tr>
                 <tr>
                     <th class="ad_sectionth">문의 내용</th>
-                    <td>
-                        <textarea cols="50" rows="5"
-                            style="resize: none; border-radius: 5px;" disabled>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates labore in odio aliquam a rem, harum necessitatibus cupiditate. Voluptates tenetur excepturi vitae quasi aliquam accusamus nisi? Ipsa nam minus temporibus?</textarea>
+                    <td style="width: 600px; height: 200px;">
+                        <textarea 
+                            style="resize: none; border-radius: 5px; width:100%; height:100%;" disabled>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates labore in odio aliquam a rem, harum necessitatibus cupiditate. Voluptates tenetur excepturi vitae quasi aliquam accusamus nisi? Ipsa nam minus temporibus?</textarea>
                     </td>
                 </tr>
                 <tr>
                     <th class="ad_sectionth">답변 내용</th>
-                    <td>
-                        <textarea cols="50" rows="15"
-                            style="resize: none; border-radius: 5px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eligendi odit nam autem! Nostrum neque ea dicta quaerat vitae non odit, ullam excepturi impedit, consequuntur laboriosam ratione amet molestias. Omnis!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eligendi odit nam autem! Nostrum neque ea dicta quaerat vitae non odit, ullam excepturi impedit, consequuntur laboriosam ratione amet molestias. Omnis!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eligendi odit nam autem! Nostrum neque ea dicta quaerat vitae non odit, ullam excepturi impedit, consequuntur laboriosam ratione amet molestias. Omnis!</textarea>
+                    <td style="width: 600px; height: 400px;">
+                        <textarea
+                        style="resize: none; border-radius: 5px; width:100%; height:100%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eligendi odit nam autem! Nostrum neque ea dicta quaerat vitae non odit, ullam excepturi impedit, consequuntur laboriosam ratione amet molestias. Omnis!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eligendi odit nam autem! Nostrum neque ea dicta quaerat vitae non odit, ullam excepturi impedit, consequuntur laboriosam ratione amet molestias. Omnis!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eligendi odit nam autem! Nostrum neque ea dicta quaerat vitae non odit, ullam excepturi impedit, consequuntur laboriosam ratione amet molestias. Omnis!</textarea>
                     </td>
                 </tr>
                 <tr>
                     <td></td>
-                    <td>
+                    <td class="ad_btn_td">
                         <input class="ad_btn" type="button" value="답변하기" onclick="location.href='/one2one_writeAction'">
                     </td>
                 </tr>

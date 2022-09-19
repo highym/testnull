@@ -21,7 +21,7 @@
 /* ------------------------------ */
 .ad_aside {
     background-color: rgb(227, 227, 252);
-    min-width: 20%;
+    /* min-width: 20%; */
 }
 .ad_aside a:hover {
     text-decoration: none;
@@ -58,10 +58,9 @@
 .ad_sectionth {
     min-width: 100px;
 }
-.ad_btn {
-    border-radius: 5px;
-    border: none;
-    padding: 10px;
+.ad_btn_td {
+    display: flex;
+    justify-content: end;
 }
 .ad_btn:hover {
     background-color: beige;
